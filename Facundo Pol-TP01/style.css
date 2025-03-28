@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#ciudad img {
+    width: 100%;
+}
+
+#paisajes img{
+    width: 100%;
+}
+.cabecera h1 a{
+    color: #604a33;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.cabecera h5{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    margin: 0;
+    background-color: #879281;
+    padding: 25px;
+}
+.menu ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    list-style-type: none;
+}
+.menu ul a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul a:hover{
+    color: white;
+}
+#segundo_titulo{
+    color:white;
+    background-color: #916b5e;
+    font-size: 40px;
+}
+.principal h2{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal article h2{
+    color:black;
+    background-color: #604a33;
+    padding: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+}
+.contenido p{
+    margin: 5px;
+    padding: 10px;
+}
+.publicidad{
+    background-color: #bab78c;
+}
+.publicidad h4{
+    color: #604a33;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px 5px 5px 15px;
+}
+.publicidad p{
+    padding: 0px 5px 5px 15px;
+}
+footer{
+    background-color: #be8c6b;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
