@@ -42,10 +42,13 @@ body{
 .menu ul a:hover{
     color: white;
 }
-#segundo_titulo{
+.segundo_titulo{
     color:white;
     background-color: #916b5e;
     font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .principal h2{
     color:white;
@@ -88,4 +91,38 @@ footer{
     justify-content: center;
     align-items: center;
     
+}
+
+.museos article h2{
+    color:black;
+    background-color: #604a33;
+    padding: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+}
+
+.formulario{
+    background-color: #be8c6b;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: start;
+    padding: 15px;
+}
+.formulario label{
+    font-size: 20px;
+}
+.formulario input{
+    width: 500px;
+    height: 20px;
+}
+.formulario textarea{
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+.formulario button{
+    margin: 5px 0px 0px 0px;
+    display: flex;
 }

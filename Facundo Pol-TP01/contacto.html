@@ -9,28 +9,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Poppins&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <title>Jujuy Energia Viva</title>
 </head>
-<body>
-    <header>
+<body style="background-color: moccasin; ">
+    <header class="cabecera">
+        <style>
+            .cabecera{
+                background-color: #be8c6b;
+                padding: 10px;
+                width: 1290px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        </style>
         <h1><a href="index.html">Vivi Jujuy</a></h1>
         <h5>Jujuy Energia Viva</h5>
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="museos.html">Museos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="contacto">
         <section>
-
-            <h2>Contactate con Nosotros</h2>
+            <h2 class="segundo_titulo">Contactate con Nosotros</h2>
             <article>  
-                <form action="" class="formulario">
-                    <label class="labels_form">Nombre y Apellido</label>
+                <form class="formulario">
+                    <label>Nombre y Apellido</label>
                     <input type="text" class="inputs_form">
                     <label>Email</label>
                     <input type="email">
+                    <label>Mensaje</label>
+                    <textarea></textarea>
                     <button id="enviar_contacto">Enviar</button>
                 </form>
             </article>
