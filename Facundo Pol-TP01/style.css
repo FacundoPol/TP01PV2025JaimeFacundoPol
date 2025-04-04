@@ -101,7 +101,9 @@ footer{
     align-items:center;
     justify-content: start;
 }
-
+.museos iframe{
+    width: 100%;
+}
 .formulario{
     background-color: #be8c6b;
     display: flex;
@@ -114,6 +116,7 @@ footer{
     font-size: 20px;
 }
 .formulario input{
+    border-radius: 5px;
     width: 500px;
     height: 20px;
 }
@@ -126,3 +129,5 @@ footer{
     margin: 5px 0px 0px 0px;
     display: flex;
 }
+
+/*agregar carpeta assets (dentro carpeta css e imagenes)y en body agregar div class container , tambien agregar un alert para que capture los datos del form*/
