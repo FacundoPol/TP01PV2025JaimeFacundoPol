@@ -13,6 +13,9 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.container_imgs{
+    width: auto;
+}
 #ciudad img {
     width: 100%;
 }
@@ -59,14 +62,14 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container h2{
+.principal h2{
     color:white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container article h2{
+.principal article h2{
     color:black;
     background-color: #604a33;
     padding: 15px;
