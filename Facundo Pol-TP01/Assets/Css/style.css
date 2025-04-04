@@ -8,7 +8,7 @@ body{
 .cabecera{
     background-color: #be8c6b;
     padding: 10px;
-    width: 1290px;
+    width: auto;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -59,14 +59,14 @@ body{
     align-items: center;
     justify-content: center;
 }
-.principal h2{
+.container h2{
     color:white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.principal article h2{
+.container article h2{
     color:black;
     background-color: #604a33;
     padding: 15px;
