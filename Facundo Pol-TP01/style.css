@@ -1,5 +1,14 @@
 body{
+    background-color: moccasin;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cabecera{
+    background-color: #be8c6b;
+    padding: 10px;
+    width: 1290px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
